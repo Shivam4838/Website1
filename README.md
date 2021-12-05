@@ -48,3 +48,61 @@
    
 </body>
 </html>
+#css file
+*{
+    box-sizing: border-box;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container {
+    background-color:#f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border:1px solid lightgray;
+    border-radius: 4px;
+}
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="text"],
+select,textarea{
+    width: 100%;
+    padding: 1px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+fieldset{
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+
+}
+.heading{text-align: center;
+
+}
+input[type="submit"] {
+    background-color: #4daea1;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4x;
+    cursor: pointer;
+    width: 80%;
+    align-content: center;
+    
+}
+input[type="submit"]:hover
+{
+    background-color: green;
+    animation: ease;
+}
+svg {
+align top: 4px;
+
+
+}
